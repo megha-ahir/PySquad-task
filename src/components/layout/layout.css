@@ -1,0 +1,147 @@
+.layout-sider {
+    height: calc(100vh - 63px);
+}
+
+.sider-content {
+    height: calc(100vh - 65px);
+}
+
+.header-logo {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+}
+
+.header-logo img {
+    width: 100%;
+    padding: 15px;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+
+.profile label {
+    padding-top: 10px;
+}
+
+.sider-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.slider-ver {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    row-gap: 6px;
+}
+
+.slider-ver button,
+.sider-btn button {
+    padding: 0px;
+    background: #1071B026;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    padding-right: 6px;
+}
+
+.slider-ver button {
+    display: flow;
+    padding: 3px 5px;
+}
+
+
+.sider-bottom {
+    position: sticky;
+    bottom: 0;
+    width: 100% !important;
+    background: #ffffff;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sider-bottom .change-plan {
+    border: 2px solid #1FEAC8;
+    color: #1FEAC8;
+    background: transparent;
+    height: 42px;
+    width: 120px;
+}
+
+.sider-bottom .trigger-btn {
+    z-index: 111;
+    background-color: aquamarine;
+    position: inherit;
+    border-radius: 6px 0 0 6px;
+    left: 100%;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-icon {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-icon button {
+    background: #1FEAC8;
+    border-radius: 60px;
+    height: 45px;
+    width: 45px;
+    border: none;
+    padding-top: 4px;
+    z-index: 111;
+}
+
+
+.ant-btn-text:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: aquamarine;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ant-menu-vertical>.ant-menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.ant-menu-inline-collapsed>.ant-menu-item .ant-menu-item-icon+span {
+    display: none !important;
+}
+
+.ant-menu-inline-collapsed>.ant-menu-item {
+    padding: 0 20px;
+}
+
+.ant-layout.ant-layout-has-sider {
+    max-height: 100vh;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+    color: rgb(0, 0, 0);
+    background: linear-gradient(132deg, rgba(207, 232, 242, 1) 0%, rgba(255, 255, 255, 1) 99%);
+    border-left: 2px solid #1A3A4F;
+    border-radius: 0;
+}

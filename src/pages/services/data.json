@@ -1,0 +1,53 @@
+{ "data" : [
+  {
+    "icon": "/images/icon1.png",
+    "title": "Artwork",
+    "backgroundImage": "/images/Maskimage1.png"
+  },
+  {
+    "icon": "/images/icon2.png",
+    "title": "Mixing/Mastering",
+    "backgroundImage": "/images/Maskimage2.png"
+  },
+  {
+    "icon": "/images/icon3.png",
+    "title": "Promo  Video Order",
+    "backgroundImage": "/images/Maskimage3.png"
+  },
+  {
+    "icon": "/images/icon4.png",
+    "title": "Spotify Search Engine",
+    "backgroundImage": "/images/Maskimage4.png"
+  },
+  {
+    "icon": "/images/icon5.png",
+    "title": "Voice Remover",
+    "backgroundImage": "/images/Maskimage5.png"
+  },
+  {
+    "icon": "/images/icon6.png",
+    "title": "Key Finder",
+    "backgroundImage": "/images/Maskimage6.png"
+  },
+  {
+    "icon": "/images/icon7.png",
+    "title": "BPM Finder",
+    "backgroundImage": "/images/Maskimage7.png"
+  },
+  {
+    "icon": "/images/icon8.png",
+    "title": "Logo Design",
+    "backgroundImage": "/images/Maskimage8.png"
+  },
+  {
+    "icon": "/images/icon9.png",
+    "title": "Mentors",
+    "backgroundImage": "/images/Maskimage9.png"
+  },
+  {
+    "icon": "/images/icon10.png",
+    "title": "Brand Consultation",
+    "backgroundImage": "/images/Maskimage10.png"
+  }
+]
+}

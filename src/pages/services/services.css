@@ -1,0 +1,59 @@
+/* @import url(/public/fonts/stylesheet.css); */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+.page-content h6 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+.card-view {
+    display: inline-flex;
+    display: inline-flex;
+    /* padding: 20px; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-view .card {
+    /* width: 410px; */
+    max-height: 115px;
+    position: relative;
+    border-radius: 12px;
+    /* background: rgb(255, 255, 255); */
+    background: linear-gradient(132deg, rgba(255, 255, 255, 1) 100%, rgba(0, 0, 0, 0) 100%);
+}
+
+.card img {
+    max-height: inherit;
+    padding-left: 60px;
+    border-radius: 12px;
+}
+
+.card .card-text {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    max-width: 37px;
+    max-height: 40px;
+}
+
+.card-text h3 {
+    font-family: 'Inter';
+    width: max-content;
+    font-size: 12px;
+    font-weight: 600;
+    /* padding-left: 4px; */
+}
+
+.card-text img {
+    padding-left: 0px;
+}
