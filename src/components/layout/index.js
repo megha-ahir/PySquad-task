@@ -25,7 +25,7 @@ const Menuitems = [
     getItem('Placements', '7', <Link to="/placements"><Placements /></Link>),
     getItem('Invite Friend', '8', <Link to="/invite-friend"><InviteFriend /></Link>),
     getItem('Free Courses', '9', <Link to="/free-courses"><FreeCourses /></Link>),
-    getItem('Settings', '9', <Link to="/Settings"><Settings /></Link>),
+    getItem('Settings', '10', <Link to="/Settings"><Settings /></Link>),
 ];
 const App = () => {
 

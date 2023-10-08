@@ -1,13 +1,9 @@
-import { Spin } from 'antd'
 import React from 'react'
 
 const Dashboard = () => {
   return (
-    <div
-      style={{
-
-      }}    >
-      <Spin />
+    <div>
+      <h1>Dashboard</h1>
     </div>
   )
 }
